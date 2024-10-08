@@ -4,18 +4,188 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+
+    <style>
+        /* Estilos gerais para o body */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+
+        /* Estilos para o título */
+        h1 {
+            color: #333;
+          
+        }
+
+        /* Estilos para os parágrafos */
+        .paragrafo1 {
+            color: #ff5733;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .paragrafo2 {
+            color: #33c3ff;
+            font-family: 'Georgia', serif;
+        }
+
+        .paragrafo3 {
+            color: #28a745;
+            font-family: 'Verdana', sans-serif;
+        }
+
+        /* Estilos personalizados para as palavras */
+        .destaque {
+            font-weight: bold;
+            text-decoration: underline;
+            color: #ffcc00;
+        }
+    </style>    
 </head>
 <body>
-    <h1> 
 
-        Teste
+    <div class="1_Questao" > 
 
-    </h1>
+    <h1> Questão 1: </h1>
 
-    <h3>
+    <p><STRONG>O que é uma regra CSS? Explique o conceito de regra CSS e forneça um exemplo prático que inclua um seletor, uma propriedade e um valor.</STRONG><BR><BR>
+        
+        Uma regra CSS é uma instrução que define como os elementos HTML devem ser apresentados em uma página da web. <br>
+        Ela consiste em um seletor, que identifica quais elementos serão afetados, e um conjunto de declarações, que incluem propriedades e valores que especificam o estilo desejado.
+            
+        <BR><BR>
+        
+        Exemplo: 
+        
+            <br>
+        
+            h1 {
+            color: blue;
+            font-size: 24px;
+        }    
+            <BR><BR>
 
-        Teste 2
+            Seletor: h1 (aplica-se a todos os elementos H1 da página). <BR>
+            Propriedades: color e font-size. <BR>
+            Valores: blue e 24px. <BR>
+    
+    
+    </p>
 
-    </h3>
+    </div>
+
+    <div class="2_Questao" > 
+
+        <h1> Questão 2: </h1>
+    
+        <p><STRONG>O que são seletores CSS? Quais são os tipos existentes?.</STRONG><BR><BR>
+            
+           Seletores de Tipo: Selecionam todos os elementos de um tipo específico (ex: p, h1, div).<br>
+           Seletores de Classe: Selecionam elementos com uma classe específica (ex: .minha-classe).<br>
+           Seletores de ID: Selecionam um único elemento com um ID específico (ex: #meu-id).<br>
+           Seletores de Descendente: Selecionam elementos que são descendentes de um elemento pai (ex: div p).<br>
+           Seletores de Filho: Selecionam filhos diretos de um elemento pai (ex: ul > li).<br>
+           Seletores de Irmão Adjacent: Selecionam um elemento que é irmão imediato de outro (ex: h1 + p).<br>
+                
+            <BR><BR
+        
+        
+        </p>
+    
+        </div>
+
+        <div class="3_Questao" > 
+
+            <h1> Questão 3: </h1>
+        
+            <p><STRONG>Crie uma página HTML com um título h1 e vários parágrafos contendo texto "Lorem Ipsum", Em cada parágrafo, use uma fonte e cor diferentes, além de marcar palavras específicas com a tag span, aplicando estilos personalizados a essas palavras..</STRONG><BR><BR>
+                
+                <h1>Exemplo de Texto Lorem Ipsum</h1>
+
+                <p class="paragrafo1">
+                    Lorem ipsum dolor sit amet, <span class="destaque">consectetur</span> adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            
+                <p class="paragrafo2">
+                    Ut enim ad minim veniam, <span class="destaque">quis</span> nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+            
+                <p class="paragrafo3">
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <span class="destaque">Excepteur</span> sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <BR><BR
+            
+            
+            </p>
+        
+            </div>
+
+
+            <div class="4_Questao" > 
+
+                <h1> Questão 4: </h1>
+
+                <p><STRONG>Como podemos incluir CSS em documentos HTML?</STRONG><BR><BR>
+
+              
+
+                <img src="IMG/QUESTAO_4.PNG">
+            </div>
+
+
+            <div class="5 _Questao" > 
+
+                <h1> Questão 5: </h1>
+
+                <p><STRONG>Seja o trecho de código HTML e CSS da figura a seguir e explique porque cada regra foi aplicada em cada item.</STRONG><BR><BR>
+
+
+                <img src="IMG/QUESTAO_5.PNG">
+            </div>
+
+            <div class="6_Questao" > 
+
+                <h1> Questão 6: </h1>
+
+                <p><STRONG>Seja o trecho de código HTML e CSS da figura a seguir e explique porque cada regra foi aplicada em cada item.</STRONG><BR><BR>
+
+
+                <img src="IMG/QUESTAO_6.PNG"><BR>
+                    <img src="IMG/QUESTAO_6_A.PNG"><BR>
+            </div>
+
+            <div class="7_Questao" > 
+
+                <h1> Questão 7: </h1>
+
+                  <ol type="a">
+                    <li>Defina na classe .box uma borda visível para os elementos que fizeram parte dessa classe.</li>
+                    <li>Defina uma cor para cada uma das div box1, box2, box3.</li>
+                    <li>Defina uma cor de fundo, cinza claro, para o body e bordas para o body e html.</li>
+                    <li>Ajuste para que não fiquem margens entre os elementos html, body e divs.</li>
+                    <li>No seu arquivo de CSS, defina uma classe .box com a propriedade display:inline-block;</li>
+                    <li>Altere apenas a cor e estilo da borda de topo de uma das divs.</li>
+                    <li>Utilizando a propriedade border-radius, faça com que os cantos do box1 fiquem em 5%.</li>
+                    <li>Utilizando a propriedade border-radius, faça que os cantos do box2 fiquem arredondados em 5% (lado esquerdo superior) e 7% (lado direito superior).</li>
+                    <li>Utilizando a propriedade border-radius, faça com que o box4 se transforme em um círculo.</li>
+                    <li>Alinhe o texto ao centro da linha do box4 utilizando a propriedade text-align: center;</li>
+                    <li>Aumente a altura da linha do box4 para a mesma altura da div.</li>
+                    <li>Defina uma linha de outline visível para cada uma das divs.</li>
+                    <li>Defina uma margin para cada div.</li>
+                    <li>Adicione um fundo com cor gradiente linear no box3, utilizando a propriedade linear-gradient.</li>
+                    <li>Adicione padding de 20px ao box1.</li>
+                    <li>Altere a opacidade do box4 utilizando a propriedade opacity: 0.5;</li>
+                    <li>Utilizando o pseudo seletor :hover, mude a cor de fundo do box1 e dê zoom no elemento box2.</li>
+                    <li>Utilize a propriedade box-shadow: 10px 16px teal; para aplicar uma sombra suave no box4, altere os valores e compreenda o comportamento da propriedade.</li>
+                </ol>
+
+
+                <img src="IMG/QUESTAO_7.PNG"><BR>
+                    <img src="IMG/QUESTAO_7_A.PNG"><BR>
+                        <img src="IMG/QUESTAO_7_B.PNG"><BR>
+            </div>
+  
 </body>
 </html>
